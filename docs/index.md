@@ -1,3 +1,6 @@
+## Gofra
+### [Github](https://github.com/gofra-lang/), [Source](https://github.com/gofra-lang/core/), <br> [Documentation](https://github.com/gofra-lang/core/blob/main/DOCUMENTATION.md), [Examples](https://github.com/gofra-lang/core/tree/main/examples)
+
 ## Features
 - Interpretate code (Will removed with isolated VM/Bytecode interpretation).
 - Generate graph for the code ('.dot' graphviz)(May be removed later as redundancy).
@@ -25,5 +28,4 @@ show // Pop value from the stack and show it on the screen.
 "Hello, World!" mshowc
 ```
 
-### [Documentation](https://github.com/gofra-lang/core/blob/main/DOCUMENTATION.md), [Examples](https://github.com/gofra-lang/core/tree/main/examples)
 #### License MIT, [(c) 2022 Kirill Zhosul (Maintainer)](https://kirillzhosul.github.io/)
