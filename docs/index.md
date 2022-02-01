@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+### Features
+- Interpretate code (Will removed with isolated VM/Bytecode interpretation).
+- Generate graph for the code (`.dot` graphviz)(May be removed later as redundancy).
+- Compile (Generate) python code (GOFRA -> Python) (May be also removed later as redundancy or part of Bytecode2Python).
+- Lint (Type check) [WIP].
+- Bytecode (Compile, Interpretate) [WIP]
 
-You can use the [editor on GitHub](https://github.com/gofra-lang/gofra-lang.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### Language features
+- Stack implementation (push, pop)
+- Conditional IFs ([bool_from_stack] if [code] else [code] end).
+- WHILE loops (while [expression] do [code] end)
+- Bytearray Memory (mbwrite, mbread, mbshowc, mbptr etc...)
+- Characters, Strings.
+- Basic I/O.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Simple example
+```
+35 // Push 35 in the stack.
+5 // Push 5 in the stack.
++ // Pop both 35 and 5, and push their sum in the stack.
+show // Pop value from the stack and show it on the screen.
+```
+### Hello World example
+```
+"Hello, World!" mshowc // Show string "Hello, World!" on the screen.
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gofra-lang/gofra-lang.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### [Documentation](https://github.com/gofra-lang/core/blob/main/DOCUMENTATION.md), 
+#### [Examples](https://github.com/gofra-lang/core/tree/main/examples)
