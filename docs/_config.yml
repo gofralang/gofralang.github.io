@@ -3,4 +3,5 @@ theme: jekyll-theme-midnight
 title: Gofra
 description: Stack-based programming language.
 
-is_project_page: false
+github:
+  is_project_page: false
