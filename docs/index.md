@@ -1,11 +1,11 @@
-### Features
+## Features
 - Interpretate code (Will removed with isolated VM/Bytecode interpretation).
 - Generate graph for the code (`.dot` graphviz)(May be removed later as redundancy).
 - Compile (Generate) python code (GOFRA -> Python) (May be also removed later as redundancy or part of Bytecode2Python).
 - Lint (Type check) [WIP].
 - Bytecode (Compile, Interpretate) [WIP]
 
-### Language features
+## Language features
 - Stack implementation (push, pop)
 - Conditional IFs ([bool_from_stack] if [code] else [code] end).
 - WHILE loops (while [expression] do [code] end)
@@ -25,5 +25,5 @@ show // Pop value from the stack and show it on the screen.
 "Hello, World!" mshowc // Show string "Hello, World!" on the screen.
 ```
 
-#### [Documentation](https://github.com/gofra-lang/core/blob/main/DOCUMENTATION.md), 
-#### [Examples](https://github.com/gofra-lang/core/tree/main/examples)
+### [Documentation](https://github.com/gofra-lang/core/blob/main/DOCUMENTATION.md), [Examples](https://github.com/gofra-lang/core/tree/main/examples)
+#### [License MIT](https://github.com/gofra-lang/core/blob/main/LICENSE), [(c) 2022 Kirill Zhosul (Maintainer)](https://kirillzhosul.github.io/
