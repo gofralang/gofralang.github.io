@@ -4,4 +4,5 @@ title: Gofra
 description: Stack-based programming language.
 
 github:
-  is_project_page: false
+  repository_url: https://github.com/gofra-lang
+  owner_url: https://github.com/kirillzhosul
