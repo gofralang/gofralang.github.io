@@ -1,5 +1,4 @@
 ## Gofra
-- [Github](https://github.com/gofra-lang/), [Source](https://github.com/gofra-lang/core/), 
 - [Documentation](https://github.com/gofra-lang/core/blob/main/DOCUMENTATION.md), [Examples](https://github.com/gofra-lang/core/tree/main/examples)
 
 ## Features
@@ -17,16 +16,13 @@
 - Characters, Strings.
 - Basic I/O.
 
-### Simple example
+### Examples
 ```
 35 // Push 35 in the stack.
 5 // Push 5 in the stack.
 + // Pop both 35 and 5, and push their sum in the stack.
 show // Pop value from the stack and show it on the screen.
 ```
-### Hello World example
 ```
 "Hello, World!" mshowc
 ```
-
-#### License MIT, [(c) 2022 Kirill Zhosul (Maintainer)](https://kirillzhosul.github.io/)
