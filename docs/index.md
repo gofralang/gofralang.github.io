@@ -1,5 +1,5 @@
 ## Gofra
-- [Documentation](https://github.com/gofralang/core/blob/main/DOCUMENTATION.md), [Examples](https://github.com/gofralang/core/tree/main/examples), [GitHub](https://github.com/gofra-lang)
+- [Documentation](https://github.com/gofralang/core/blob/main/DOCUMENTATION.md), [Examples](https://github.com/gofralang/core/tree/main/examples), [GitHub](https://github.com/gofralang)
 
 ## Features
 - Interpretate code (Will removed with isolated VM/Bytecode interpretation).
