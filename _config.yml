@@ -1,0 +1,9 @@
+theme: jekyll-theme-midnight
+
+title: Gofra
+description: Concatenative programming language.
+
+github:
+  repository_url: https://github.com/gofralang
+  owner_url: https://kirillzhosul.site
+  owner_name: Kirill Zhosul

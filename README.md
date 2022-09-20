@@ -1,1 +1,2 @@
-Just web page. Nothing special here. Should you even has to be there?
+# [gofralang.github.io](gofralang.github.io)
+GitHub Pages language website.

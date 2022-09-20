@@ -1,9 +1,0 @@
-theme: jekyll-theme-midnight
-
-title: Gofra
-description: Stack-based programming language.
-
-github:
-  repository_url: https://github.com/gofralang
-  owner_url: https://github.com/kirillzhosul
-  owner_name: kirillzhosul
